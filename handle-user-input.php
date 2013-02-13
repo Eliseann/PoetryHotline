@@ -32,7 +32,7 @@ if ($user_pushed == 1)
  else
  {
  echo "<Say>Sorry, I can't do that yet.</Say>";
- echo '<Redirect>handle-incoming-call.php</Redirect>';
+ echo '<Hangup/>;
  }
 echo '</Response>';
 ?>
