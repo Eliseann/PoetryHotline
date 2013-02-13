@@ -1,7 +1,8 @@
 <?php
  header('Content-type: text/xml');
+ echo('<?xml version="1.0" encoding="UTF-8"?>');
+ echo("\n");
  ?>
-<?xml version="1.0" encoding="UTF-8"?>
  <Response>
  <Gather action="handle-user-input.php" numDigits="1">
 	 <Play>intro.wav<Play>
