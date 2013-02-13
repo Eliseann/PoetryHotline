@@ -32,7 +32,7 @@ if ($user_pushed == 1)
  else
  {
  echo "<Say>Sorry, I can't do that yet.</Say>";
- echo '<Hangup/>;
+ echo '<Hangup/>';
  }
 echo '</Response>';
 ?>
