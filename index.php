@@ -10,4 +10,5 @@
  <!-- If user doesn't input anything, prompt and try again. -->
  <Say>Sorry, I didn't get your response.</Say>
  <Redirect>index.xml</Redirect>
+ <Redirect>index.php</Redirect>
 </Response>
