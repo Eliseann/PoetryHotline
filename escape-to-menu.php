@@ -13,7 +13,7 @@ if ($user_pushed_2 == 4)
  else
  {
  echo "<Say>Sorry, I can't do that yet.</Say>";
- echo '<Redirect>index.php</Redirect>';
+ echo '<Redirect>escape-to-menu.php</Redirect>';
  }
 echo '</Response>';
 ?>
