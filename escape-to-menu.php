@@ -7,7 +7,7 @@ echo '<Response>';
 if ($user_pushed_2 == 4)
 {
  echo '<Gather action="handle-user-input.php" numDigits="1">';
- echo '<Play>menu</Play>';
+ echo '<Play>menu.wav</Play>';
  echo '</Gather>';
  }
  else
