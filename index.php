@@ -5,7 +5,7 @@
  ?>
  <Response>
  <Gather action="handle-user-input.php" numDigits="1">
-	 <Play>intro.wav<Play>
+	 <Play>intro.wav</Play>
  </Gather>
  <!-- If user doesn't input anything, prompt and try again. -->
  <Say>Sorry, I didn't get your response.</Say>
