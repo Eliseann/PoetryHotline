@@ -7,21 +7,21 @@ echo '<Response>';
 if ($user_pushed == 1)
 {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>grainofsand.mp3</Play>';
+ echo '<Play>bohemian.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed == 2)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>she.mp3</Play>';
+ echo '<Play>dreambreeze.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed ==3)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>CAT.mp3</Play>';
+ echo '<Play>mywoman.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
