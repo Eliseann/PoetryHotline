@@ -13,7 +13,7 @@ if ($user_pushed_2 == 4)
  else
  {
  echo "<Say>Sorry, I can't do that yet.</Say>";
- echo '<Redirect>handle-incoming-call.php</Redirect>';
+ echo '<Redirect>index.php</Redirect>';
  }
 echo '</Response>';
 ?>
