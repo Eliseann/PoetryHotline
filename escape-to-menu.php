@@ -7,9 +7,9 @@ echo '<Response>';
  $user_pushed_2 = (int) $_REQUEST['Digits'];
 if ($user_pushed_2 == 4)
 {
- echo '<Gather action="handle-user-input.php" numDigits="1">;
+ echo '<Gather action="handle-user-input.php" numDigits="1">';
  echo '<Play>menu</Play>';
- echo </Gather>';
+ echo '</Gather>';
  }
  else
  {
