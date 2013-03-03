@@ -4,7 +4,7 @@
 echo '<Response>';
  //Create second variable with user input.
  $user_pushed_2 = (int) $_REQUEST['Digits'];
-if ($user_pushed_2 == 4)
+if ($user_pushed_2 ==4)
 {
  echo '<Gather action="handle-user-input.php" numDigits="1">';
  echo '<Play>menu.wav</Play>';

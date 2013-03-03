@@ -18,20 +18,20 @@ if ($user_pushed == 1)
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
- elseif ($user_pushed ==3)
+ elseif ($user_pushed == 3)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
  echo '<Play>cat.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
- elseif ($user_pushed ==4)
+ elseif ($user_pushed == 4)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
  echo '<Play>menu.wav</Play>';
  echo '</Gather>';
  }
- elseif ($user_pushed ==5)
+ elseif ($user_pushed == 5)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
  echo '<Play>disclaimer.wav</Play>';
