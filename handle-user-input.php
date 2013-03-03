@@ -31,7 +31,7 @@ if ($user_pushed == 1)
  echo '<Play>menu.wav</Play>';
  echo '</Gather>';
  }
- elseif ($user_pushed == 5)
+ elseif ($user_pushed ==5)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
  echo '<Play>disclaimer.wav</Play>';
