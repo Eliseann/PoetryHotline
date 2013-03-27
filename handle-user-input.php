@@ -7,28 +7,28 @@ echo '<Response>';
 if ($user_pushed == 1)
 {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>grainofsand.mp3</Play>';
+ echo '<Play>poem1.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed == 2)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>she.mp3</Play>';
+ echo '<Play>poem2.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed == 3)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>mothercat.mp3</Play>';
+ echo '<Play>poem3.mp3</Play>';
  echo '<Play>append.wav</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed == 4)
  {
  echo '<Gather action="escape-to-menu.php" numDigits="1">';
- echo '<Play>menu.wav</Play>';
+ echo '<Play>menu.mp3</Play>';
  echo '</Gather>';
  }
  elseif ($user_pushed == 5)

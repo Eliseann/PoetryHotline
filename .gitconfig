@@ -1,0 +1,5 @@
+[user]
+	name = Eliseann
+	email = elise.ackerman@gmail.com
+[alias]
+	gui = !sh -c/usr/local/git/libexec/git-core/git-gui
